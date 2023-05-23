@@ -39,18 +39,30 @@ neu run
 
 ## Package and distributio
 
-1. Create distrubtion using make command.
+1. Disable inspector in when running the app
 
-    In folder
+    In `neutralino.config.json`,
+    
+    ```json
+    "modes": {
+        "window": {
+            "enableInspector": true,
+        }
+    }
+    ```
+
+2. Create distrubtion using command.
+    
+    as folder
 
     ```sh
     neu build
     ```
 
-    Or, in zip file
+    Or, as zip file
 
     ```sh
     neu build --release
     ```
 
-2. The executables should be output to `dist/app` folder under the root folder of the project.
+3. The executables should be output to `dist/app` folder under the root folder of the project.
