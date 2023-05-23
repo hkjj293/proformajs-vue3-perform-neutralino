@@ -2,7 +2,7 @@
   "applicationId": "js.neutralino.sample",
   "version": "1.0.0",
   "defaultMode": "window",
-  "documentRoot": "/resources/dist/",
+  "documentRoot": "/dist/",
   "url": "/",
   "enableServer": true,
   "enableNativeAPI": true,
@@ -24,7 +24,7 @@
       "minHeight": 200,
       "fullScreen": false,
       "alwaysOnTop": false,
-      "icon": "/resources/dist/favicon.png",
+      "icon": "/dist/favicon.png",
       "enableInspector": false,
       "borderless": false,
       "maximize": false,
@@ -35,9 +35,9 @@
   },
   "cli": {
     "binaryName": "app",
-    "resourcesPath": "/resources/dist/",
+    "resourcesPath": "/dist/",
     "extensionsPath": "/extensions/",
-    "clientLibrary": "/resources/dist/neutralino.js",
+    "clientLibrary": "/dist/neutralino.js",
     "binaryVersion": "4.10.0",
     "clientVersion": "3.8.2"
   }

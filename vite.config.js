@@ -29,6 +29,6 @@ export default defineConfig({
     }
   },
   build: {
-    outDir: './app/resources/dist'
+    outDir: './dist'
   }
 })
