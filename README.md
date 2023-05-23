@@ -51,7 +51,7 @@ neu run
     }
     ```
 
-2. Create distrubtion using command.
+2. Create distribution using command.
     
     as folder
 
