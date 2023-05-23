@@ -37,7 +37,7 @@ In terminal,
 neu run
 ```
 
-## Package and distributio
+## Package and distribution
 
 1. Disable inspector in when running the app
 
