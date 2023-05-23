@@ -22,7 +22,7 @@ neu update
 
 ## Debug standalone application using [Neutrolino](https://neutralino.js.org//)
 
-In `neutralino.config.json`
+In `neutralino.config.json`,
 
 ```json
 "modes": {
@@ -32,24 +32,37 @@ In `neutralino.config.json`
 }
 ```
 
+In terminal,
 ```sh
 neu run
 ```
 
-## Package and distributio
+## Package and distribution
 
-1. Create distrubtion using make command.
+1. Disable inspector in when running the app
 
-In folder
+    In `neutralino.config.json`,
+    
+    ```json
+    "modes": {
+        "window": {
+            "enableInspector": false,
+        }
+    }
+    ```
 
-```sh
-neu build
-```
+2. Create distribution using command.
+    
+    as folder
 
-Or, in zip file
+    ```sh
+    neu build
+    ```
 
-```sh
-neu build --release
-```
+    Or, as zip file
 
-2. The executables should be output to `out` folder under the root folder of the project.
+    ```sh
+    neu build --release
+    ```
+
+3. The executables should be output to `dist/app` folder under the root folder of the project.
