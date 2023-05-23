@@ -22,7 +22,7 @@ neu update
 
 ## Debug standalone application using [Neutrolino](https://neutralino.js.org//)
 
-In `neutralino.config.json`
+In `neutralino.config.json`,
 
 ```json
 "modes": {
@@ -32,6 +32,7 @@ In `neutralino.config.json`
 }
 ```
 
+In terminal,
 ```sh
 neu run
 ```
