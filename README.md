@@ -41,16 +41,16 @@ neu run
 
 1. Create distrubtion using make command.
 
-In folder
+    In folder
 
-```sh
-neu build
-```
+    ```sh
+    neu build
+    ```
 
-Or, in zip file
+    Or, in zip file
 
-```sh
-neu build --release
-```
+    ```sh
+    neu build --release
+    ```
 
 2. The executables should be output to `out` folder under the root folder of the project.
