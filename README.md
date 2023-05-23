@@ -46,7 +46,7 @@ neu run
     ```json
     "modes": {
         "window": {
-            "enableInspector": fales,
+            "enableInspector": false,
         }
     }
     ```
