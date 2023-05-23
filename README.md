@@ -18,12 +18,15 @@ This template should help get you started building standalone PRO<i>formajs</i>-
 ```sh
 npm install
 npm run build
+neu update
 ```
 
 ## Debug standalone application using [Neutrolino](https://neutralino.js.org//)
 
+In 
+
 ```sh
-npm start
+neu run
 ```
 
 ## Package and distributio
@@ -31,7 +34,7 @@ npm start
 1. Create distrubtion using make command.
 
 ```sh
-npm run make
+neu build
 ```
 
 2. The executables should be output to `out` folder under the root folder of the project.
