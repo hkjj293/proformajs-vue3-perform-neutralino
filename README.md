@@ -53,4 +53,4 @@ neu run
     neu build --release
     ```
 
-2. The executables should be output to `out` folder under the root folder of the project.
+2. The executables should be output to `dist/app` folder under the root folder of the project.
