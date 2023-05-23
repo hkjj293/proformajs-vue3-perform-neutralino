@@ -17,7 +17,7 @@ This template should help get you started building standalone PRO<i>formajs</i>-
 ```sh
 npm install
 npm run build
-neu update
+npx neu update
 ```
 
 ## Debug standalone application using [Neutrolino](https://neutralino.js.org//)
@@ -33,36 +33,37 @@ In `neutralino.config.json`,
 ```
 
 In terminal,
+
 ```sh
-neu run
+nex neu run
 ```
 
 ## Package and distribution
 
 1. Disable inspector in when running the app
 
-    In `neutralino.config.json`,
-    
-    ```json
-    "modes": {
-        "window": {
-            "enableInspector": false,
-        }
-    }
-    ```
+   In `neutralino.config.json`,
+
+   ```json
+   "modes": {
+       "window": {
+           "enableInspector": false,
+       }
+   }
+   ```
 
 2. Create distribution using command.
-    
-    as folder
 
-    ```sh
-    neu build
-    ```
+   as folder
 
-    Or, as zip file
+   ```sh
+   npx neu build
+   ```
 
-    ```sh
-    neu build --release
-    ```
+   Or, as zip file
+
+   ```sh
+   npx neu build --release
+   ```
 
 3. The executables should be output to `dist/app` folder under the root folder of the project.
