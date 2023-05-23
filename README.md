@@ -2,7 +2,6 @@
 
 An example usage of proformajs-vue3-perform using [Neutrolino](https://neutralino.js.org//)
 
-
 The original component work for this project can be found at https://gitlab.com/openclinical/proformajs-vue3
 
 ---
@@ -23,7 +22,15 @@ neu update
 
 ## Debug standalone application using [Neutrolino](https://neutralino.js.org//)
 
-In 
+In `neutralino.config.json`
+
+```json
+"modes": {
+    "window": {
+        "enableInspector": true,
+    }
+}
+```
 
 ```sh
 neu run
@@ -33,8 +40,16 @@ neu run
 
 1. Create distrubtion using make command.
 
+In folder
+
 ```sh
 neu build
+```
+
+Or, in zip file
+
+```sh
+neu build --release
 ```
 
 2. The executables should be output to `out` folder under the root folder of the project.
